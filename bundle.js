@@ -29,7 +29,7 @@ class ResponseError extends Error {
 class Client {
     /**
      * @param {object} config
-     * @param {object} logger
+     * @param {object} [logger]
      */
     constructor(config, logger = null) {
         if (!_.isObject(config)) {
@@ -138,7 +138,7 @@ class Client {
      */
     _logError(e) {
         if (_.isObject(this._logger)) {
-            this._logError(e);
+            this._logger.error(e);
         }
     }
 }

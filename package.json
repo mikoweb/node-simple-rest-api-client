@@ -1,7 +1,7 @@
 {
   "name": "simple-rest-api-client",
   "description": "Simple REST Api Client",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": {
     "name": "Rafał Mikołajun"
   },
