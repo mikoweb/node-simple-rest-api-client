@@ -1,7 +1,7 @@
 {
   "name": "simple-rest-api-client",
   "description": "Simple REST Api Client",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": {
     "name": "Rafał Mikołajun"
   },
@@ -28,5 +28,15 @@
     "rollup-plugin-commonjs": "^7.0.0",
     "rollup-plugin-node-resolve": "^2.0.0",
     "rollup-watch": "^3.2.2"
-  }
+  },
+  "files": [
+    "src",
+    ".eslintrc",
+    "bundle.js",
+    "LICENSE",
+    "package.json",
+    "README.md",
+    "rollup.config.js",
+    "watch.sh"
+  ]
 }
