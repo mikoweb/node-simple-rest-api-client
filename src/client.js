@@ -114,7 +114,7 @@ export default class Client {
      */
     _logError(e) {
         if (_.isObject(this._logger)) {
-            this._logError(e);
+            this._logger.error(e);
         }
     }
 };
