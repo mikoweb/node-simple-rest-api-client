@@ -1,0 +1,32 @@
+{
+  "name": "simple-rest-api-client",
+  "description": "Simple REST Api Client",
+  "version": "0.0.1",
+  "author": {
+    "name": "Rafał Mikołajun"
+  },
+  "license": "LGPL-3.0",
+  "scripts": {
+    "rollup": "rollup -c",
+    "rollup-watch": "rollup -c --watch"
+  },
+  "main": "bundle.js",
+  "engines": {
+    "node": ">7.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikoweb/node-simple-rest-api-client.git"
+  },
+  "dependencies": {
+    "lodash": "~4.0",
+    "node-rest-client": "~3.1.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.0",
+    "rollup": "^0.41.4",
+    "rollup-plugin-commonjs": "^7.0.0",
+    "rollup-plugin-node-resolve": "^2.0.0",
+    "rollup-watch": "^3.2.2"
+  }
+}
